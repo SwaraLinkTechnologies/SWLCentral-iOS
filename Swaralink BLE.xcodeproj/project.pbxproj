@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CF3A4E2714898100CFAC79 /* DiscoverAndConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A492714898100CFAC79 /* DiscoverAndConnectViewController.swift */; };
+		05CF3A4F2714898100CFAC79 /* SendReceiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A4A2714898100CFAC79 /* SendReceiveViewController.swift */; };
+		05CF3A502714898100CFAC79 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A4B2714898100CFAC79 /* HomeViewController.swift */; };
+		05CF3A512714898100CFAC79 /* PeripheralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A4C2714898100CFAC79 /* PeripheralInfoViewController.swift */; };
+		05CF3A522714898100CFAC79 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A4D2714898100CFAC79 /* AboutViewController.swift */; };
+		05CF3A5A27148A2C00CFAC79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CF3A5827148A2C00CFAC79 /* Main.storyboard */; };
+		05CF3A9D27148FC600CFAC79 /* KnownDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A9B27148FC600CFAC79 /* KnownDeviceTableViewCell.swift */; };
+		05CF3A9E27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A9C27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift */; };
+		1041799828C0A88200BC3A9B /* GetCurrentStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041799728C0A88200BC3A9B /* GetCurrentStateViewController.swift */; };
+		1049745528E1BBDD00AD6D6D /* test_config.swlprofile in Resources */ = {isa = PBXBuildFile; fileRef = 1049745428E1BBDD00AD6D6D /* test_config.swlprofile */; };
+		108240BF2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240BE2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift */; };
+		108240C12782EAE4003F18B8 /* TerminateConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240C02782EAE4003F18B8 /* TerminateConnectionViewController.swift */; };
+		108240C32782EAF1003F18B8 /* ClearKnownDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240C22782EAF1003F18B8 /* ClearKnownDeviceViewController.swift */; };
+		108240C52782EFA2003F18B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240C42782EFA2003F18B8 /* Constants.swift */; };
+		1084F4C72774876200A4A12A /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084F4C62774876200A4A12A /* ButtonTableViewCell.swift */; };
+		1098AB7D26F1DB100007F58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098AB7C26F1DB100007F58F /* AppDelegate.swift */; };
+		1098AB7F26F1DB100007F58F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098AB7E26F1DB100007F58F /* SceneDelegate.swift */; };
+		1098AB8626F1DB120007F58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1098AB8526F1DB120007F58F /* Assets.xcassets */; };
+		1098AB8926F1DB120007F58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1098AB8726F1DB120007F58F /* LaunchScreen.storyboard */; };
+		1098BC62277C6ED700BC3C50 /* UpdateFirmwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1098BC61277C6ED700BC3C50 /* UpdateFirmwareViewController.swift */; };
+		109DD3ED272021FC008F4FF4 /* PacketInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109DD3EC272021FC008F4FF4 /* PacketInfoTableViewCell.swift */; };
+		10A3C1392832888F008DD3B7 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 10A3C1382832888F008DD3B7 /* FirebaseCrashlytics */; };
+		10A3C13C28328AC2008DD3B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10A3C13B28328AC0008DD3B7 /* GoogleService-Info.plist */; };
+		10A40CC027A2DC9E003EAAC5 /* SetInternalParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A40CBF27A2DC9E003EAAC5 /* SetInternalParameterViewController.swift */; };
+		10A736B32784122D0029D6B7 /* GetKnownDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A736B22784122D0029D6B7 /* GetKnownDeviceViewController.swift */; };
+		10A952D32770707700EF1B1F /* KnownDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A952D22770707700EF1B1F /* KnownDeviceViewController.swift */; };
+		10ADABFE271ED72C007E9B59 /* LOGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADABFD271ED72B007E9B59 /* LOGViewController.swift */; };
+		10ADAC01271EF299007E9B59 /* StaticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAC00271EF299007E9B59 /* StaticHelper.swift */; };
+		10C706DA27BB95CF008D50D5 /* SWLConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C706D927BB95CF008D50D5 /* SWLConnection.swift */; };
+		10CE0D4328E1B00500DBAE31 /* SetConfigurationProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CE0D4228E1B00500DBAE31 /* SetConfigurationProfileViewController.swift */; };
+		10D1528E278C0D2000EFFE8E /* DirectConnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1528D278C0D2000EFFE8E /* DirectConnectController.swift */; };
+		10DE1A6C28A39A0200AC0F91 /* GetPeripheralPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE1A6A28A39A0100AC0F91 /* GetPeripheralPrioritiesViewController.swift */; };
+		10DE1A6D28A39A0200AC0F91 /* PeripheralPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE1A6B28A39A0100AC0F91 /* PeripheralPrioritiesViewController.swift */; };
+		10E475AE27CCC1A1009DCD19 /* DiagnosticLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E475AD27CCC1A0009DCD19 /* DiagnosticLogViewController.swift */; };
+		10F2023E28E6CC1100295816 /* SWLCentral.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F2023D28E6CC1100295816 /* SWLCentral.xcframework */; };
+		52822F3327B151CF007B3877 /* GetInternalParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52822F3227B151CF007B3877 /* GetInternalParametersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10A6F322273944BF0003840F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05CF3A492714898100CFAC79 /* DiscoverAndConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverAndConnectViewController.swift; sourceTree = "<group>"; };
+		05CF3A4A2714898100CFAC79 /* SendReceiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendReceiveViewController.swift; sourceTree = "<group>"; };
+		05CF3A4B2714898100CFAC79 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05CF3A4C2714898100CFAC79 /* PeripheralInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralInfoViewController.swift; sourceTree = "<group>"; };
+		05CF3A4D2714898100CFAC79 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		05CF3A5927148A2C00CFAC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05CF3A9B27148FC600CFAC79 /* KnownDeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnownDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		05CF3A9C27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedPacketsTableViewCell.swift; sourceTree = "<group>"; };
+		1041799728C0A88200BC3A9B /* GetCurrentStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentStateViewController.swift; sourceTree = "<group>"; };
+		1049745428E1BBDD00AD6D6D /* test_config.swlprofile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_config.swlprofile; sourceTree = "<group>"; };
+		104F55B3277DCF2A00EBA72D /* Swaralink BLE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Swaralink BLE.entitlements"; sourceTree = "<group>"; };
+		108240BE2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDiscoverAndConnectViewController.swift; sourceTree = "<group>"; };
+		108240C02782EAE4003F18B8 /* TerminateConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminateConnectionViewController.swift; sourceTree = "<group>"; };
+		108240C22782EAF1003F18B8 /* ClearKnownDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearKnownDeviceViewController.swift; sourceTree = "<group>"; };
+		108240C42782EFA2003F18B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1084F4C62774876200A4A12A /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		1098AB7926F1DB100007F58F /* Swaralink BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swaralink BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1098AB7C26F1DB100007F58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1098AB7E26F1DB100007F58F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1098AB8526F1DB120007F58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1098AB8826F1DB120007F58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1098AB8A26F1DB120007F58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1098BC61277C6ED700BC3C50 /* UpdateFirmwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateFirmwareViewController.swift; sourceTree = "<group>"; };
+		109DD3EC272021FC008F4FF4 /* PacketInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketInfoTableViewCell.swift; sourceTree = "<group>"; };
+		10A3C13B28328AC0008DD3B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10A40CBF27A2DC9E003EAAC5 /* SetInternalParameterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetInternalParameterViewController.swift; sourceTree = "<group>"; };
+		10A736B22784122D0029D6B7 /* GetKnownDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetKnownDeviceViewController.swift; sourceTree = "<group>"; };
+		10A952D22770707700EF1B1F /* KnownDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownDeviceViewController.swift; sourceTree = "<group>"; };
+		10ADABFD271ED72B007E9B59 /* LOGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOGViewController.swift; sourceTree = "<group>"; };
+		10ADAC00271EF299007E9B59 /* StaticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticHelper.swift; sourceTree = "<group>"; };
+		10C706D927BB95CF008D50D5 /* SWLConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWLConnection.swift; sourceTree = "<group>"; };
+		10CE0D4228E1B00500DBAE31 /* SetConfigurationProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetConfigurationProfileViewController.swift; sourceTree = "<group>"; };
+		10D1528D278C0D2000EFFE8E /* DirectConnectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectConnectController.swift; sourceTree = "<group>"; };
+		10DE1A6A28A39A0100AC0F91 /* GetPeripheralPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPeripheralPrioritiesViewController.swift; sourceTree = "<group>"; };
+		10DE1A6B28A39A0100AC0F91 /* PeripheralPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralPrioritiesViewController.swift; sourceTree = "<group>"; };
+		10E475AD27CCC1A0009DCD19 /* DiagnosticLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticLogViewController.swift; sourceTree = "<group>"; };
+		10F2023D28E6CC1100295816 /* SWLCentral.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SWLCentral.xcframework; sourceTree = "<group>"; };
+		52822F3227B151CF007B3877 /* GetInternalParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInternalParametersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1098AB7626F1DB100007F58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F2023E28E6CC1100295816 /* SWLCentral.xcframework in Frameworks */,
+				10A3C1392832888F008DD3B7 /* FirebaseCrashlytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CF3A482714898100CFAC79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10DE1A6A28A39A0100AC0F91 /* GetPeripheralPrioritiesViewController.swift */,
+				10DE1A6B28A39A0100AC0F91 /* PeripheralPrioritiesViewController.swift */,
+				05CF3A4B2714898100CFAC79 /* HomeViewController.swift */,
+				05CF3A492714898100CFAC79 /* DiscoverAndConnectViewController.swift */,
+				10D1528D278C0D2000EFFE8E /* DirectConnectController.swift */,
+				108240BE2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift */,
+				108240C02782EAE4003F18B8 /* TerminateConnectionViewController.swift */,
+				05CF3A4A2714898100CFAC79 /* SendReceiveViewController.swift */,
+				10A736B22784122D0029D6B7 /* GetKnownDeviceViewController.swift */,
+				108240C22782EAF1003F18B8 /* ClearKnownDeviceViewController.swift */,
+				10A952D22770707700EF1B1F /* KnownDeviceViewController.swift */,
+				1098BC61277C6ED700BC3C50 /* UpdateFirmwareViewController.swift */,
+				10A40CBF27A2DC9E003EAAC5 /* SetInternalParameterViewController.swift */,
+				52822F3227B151CF007B3877 /* GetInternalParametersViewController.swift */,
+				10ADABFD271ED72B007E9B59 /* LOGViewController.swift */,
+				05CF3A4D2714898100CFAC79 /* AboutViewController.swift */,
+				05CF3A4C2714898100CFAC79 /* PeripheralInfoViewController.swift */,
+				10E475AD27CCC1A0009DCD19 /* DiagnosticLogViewController.swift */,
+				1041799728C0A88200BC3A9B /* GetCurrentStateViewController.swift */,
+				10CE0D4228E1B00500DBAE31 /* SetConfigurationProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		05CF3A9A27148FC600CFAC79 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				05CF3A9B27148FC600CFAC79 /* KnownDeviceTableViewCell.swift */,
+				05CF3A9C27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift */,
+				109DD3EC272021FC008F4FF4 /* PacketInfoTableViewCell.swift */,
+				1084F4C62774876200A4A12A /* ButtonTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		101A7E3E283F7A7D00DB2EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1098AB7026F1DB100007F58F = {
+			isa = PBXGroup;
+			children = (
+				1098AB7B26F1DB100007F58F /* Swaralink BLE */,
+				1098AB7A26F1DB100007F58F /* Products */,
+				101A7E3E283F7A7D00DB2EE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1098AB7A26F1DB100007F58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1098AB7926F1DB100007F58F /* Swaralink BLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1098AB7B26F1DB100007F58F /* Swaralink BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1049745428E1BBDD00AD6D6D /* test_config.swlprofile */,
+				10A3C13B28328AC0008DD3B7 /* GoogleService-Info.plist */,
+				104F55B3277DCF2A00EBA72D /* Swaralink BLE.entitlements */,
+				10D1778A275643E600D33761 /* lib_code */,
+				10ADABFF271EF283007E9B59 /* New Group */,
+				05CF3A9A27148FC600CFAC79 /* TableViewCell */,
+				05CF3A482714898100CFAC79 /* Controllers */,
+				1098AB7C26F1DB100007F58F /* AppDelegate.swift */,
+				1098AB7E26F1DB100007F58F /* SceneDelegate.swift */,
+				1098AB8526F1DB120007F58F /* Assets.xcassets */,
+				05CF3A5827148A2C00CFAC79 /* Main.storyboard */,
+				1098AB8726F1DB120007F58F /* LaunchScreen.storyboard */,
+				1098AB8A26F1DB120007F58F /* Info.plist */,
+				108240C42782EFA2003F18B8 /* Constants.swift */,
+			);
+			path = "Swaralink BLE";
+			sourceTree = "<group>";
+		};
+		10ADABFF271EF283007E9B59 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				10C706D927BB95CF008D50D5 /* SWLConnection.swift */,
+				10ADAC00271EF299007E9B59 /* StaticHelper.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		10D1778A275643E600D33761 /* lib_code */ = {
+			isa = PBXGroup;
+			children = (
+				10F2023D28E6CC1100295816 /* SWLCentral.xcframework */,
+			);
+			path = lib_code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1098AB7826F1DB100007F58F /* Swaralink BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1098AB8D26F1DB120007F58F /* Build configuration list for PBXNativeTarget "Swaralink BLE" */;
+			buildPhases = (
+				1098AB7526F1DB100007F58F /* Sources */,
+				1098AB7626F1DB100007F58F /* Frameworks */,
+				1098AB7726F1DB100007F58F /* Resources */,
+				10A6F322273944BF0003840F /* Embed Frameworks */,
+				10A3C13A283288B3008DD3B7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swaralink BLE";
+			packageProductDependencies = (
+				10A3C1382832888F008DD3B7 /* FirebaseCrashlytics */,
+			);
+			productName = "Swaralink BLE";
+			productReference = 1098AB7926F1DB100007F58F /* Swaralink BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1098AB7126F1DB100007F58F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1098AB7826F1DB100007F58F = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 1098AB7426F1DB100007F58F /* Build configuration list for PBXProject "Swaralink BLE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1098AB7026F1DB100007F58F;
+			packageReferences = (
+				10A3C1372832888F008DD3B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 1098AB7A26F1DB100007F58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1098AB7826F1DB100007F58F /* Swaralink BLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1098AB7726F1DB100007F58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CF3A5A27148A2C00CFAC79 /* Main.storyboard in Resources */,
+				1049745528E1BBDD00AD6D6D /* test_config.swlprofile in Resources */,
+				1098AB8926F1DB120007F58F /* LaunchScreen.storyboard in Resources */,
+				1098AB8626F1DB120007F58F /* Assets.xcassets in Resources */,
+				10A3C13C28328AC2008DD3B7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A3C13A283288B3008DD3B7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1098AB7526F1DB100007F58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CF3A502714898100CFAC79 /* HomeViewController.swift in Sources */,
+				1041799828C0A88200BC3A9B /* GetCurrentStateViewController.swift in Sources */,
+				10ADABFE271ED72C007E9B59 /* LOGViewController.swift in Sources */,
+				05CF3A9D27148FC600CFAC79 /* KnownDeviceTableViewCell.swift in Sources */,
+				10A952D32770707700EF1B1F /* KnownDeviceViewController.swift in Sources */,
+				1098AB7D26F1DB100007F58F /* AppDelegate.swift in Sources */,
+				108240C52782EFA2003F18B8 /* Constants.swift in Sources */,
+				108240C32782EAF1003F18B8 /* ClearKnownDeviceViewController.swift in Sources */,
+				10DE1A6C28A39A0200AC0F91 /* GetPeripheralPrioritiesViewController.swift in Sources */,
+				10DE1A6D28A39A0200AC0F91 /* PeripheralPrioritiesViewController.swift in Sources */,
+				108240C12782EAE4003F18B8 /* TerminateConnectionViewController.swift in Sources */,
+				05CF3A512714898100CFAC79 /* PeripheralInfoViewController.swift in Sources */,
+				10D1528E278C0D2000EFFE8E /* DirectConnectController.swift in Sources */,
+				10A40CC027A2DC9E003EAAC5 /* SetInternalParameterViewController.swift in Sources */,
+				05CF3A522714898100CFAC79 /* AboutViewController.swift in Sources */,
+				108240BF2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift in Sources */,
+				10E475AE27CCC1A1009DCD19 /* DiagnosticLogViewController.swift in Sources */,
+				52822F3327B151CF007B3877 /* GetInternalParametersViewController.swift in Sources */,
+				05CF3A4E2714898100CFAC79 /* DiscoverAndConnectViewController.swift in Sources */,
+				1098BC62277C6ED700BC3C50 /* UpdateFirmwareViewController.swift in Sources */,
+				10ADAC01271EF299007E9B59 /* StaticHelper.swift in Sources */,
+				10C706DA27BB95CF008D50D5 /* SWLConnection.swift in Sources */,
+				05CF3A4F2714898100CFAC79 /* SendReceiveViewController.swift in Sources */,
+				1098AB7F26F1DB100007F58F /* SceneDelegate.swift in Sources */,
+				10CE0D4328E1B00500DBAE31 /* SetConfigurationProfileViewController.swift in Sources */,
+				1084F4C72774876200A4A12A /* ButtonTableViewCell.swift in Sources */,
+				10A736B32784122D0029D6B7 /* GetKnownDeviceViewController.swift in Sources */,
+				05CF3A9E27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift in Sources */,
+				109DD3ED272021FC008F4FF4 /* PacketInfoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05CF3A5827148A2C00CFAC79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CF3A5927148A2C00CFAC79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1098AB8726F1DB120007F58F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1098AB8826F1DB120007F58F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1098AB8B26F1DB120007F58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1098AB8C26F1DB120007F58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1098AB8E26F1DB120007F58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Swaralink BLE/Swaralink BLE.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6AVLJP5U4N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Swaralink\\ BLE",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Swaralink\\ BLE/lib_code";
+				INFOPLIST_FILE = "Swaralink BLE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+				);
+				MARKETING_VERSION = 1.1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaralink.appname;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Swaralink\\ BLE/lib_code";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1098AB8F26F1DB120007F58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Swaralink BLE/Swaralink BLE.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AVLJP5U4N;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Swaralink\\ BLE",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Swaralink\\ BLE/lib_code";
+				INFOPLIST_FILE = "Swaralink BLE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
+				);
+				MARKETING_VERSION = 1.1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swaralink.appname;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Swaralink\\ BLE/lib_code";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1098AB7426F1DB100007F58F /* Build configuration list for PBXProject "Swaralink BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1098AB8B26F1DB120007F58F /* Debug */,
+				1098AB8C26F1DB120007F58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1098AB8D26F1DB120007F58F /* Build configuration list for PBXNativeTarget "Swaralink BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1098AB8E26F1DB120007F58F /* Debug */,
+				1098AB8F26F1DB120007F58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10A3C1372832888F008DD3B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10A3C1382832888F008DD3B7 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10A3C1372832888F008DD3B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1098AB7126F1DB100007F58F /* Project object */;
+}
