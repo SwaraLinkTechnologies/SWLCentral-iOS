@@ -16,7 +16,6 @@
 		05CF3A9D27148FC600CFAC79 /* KnownDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A9B27148FC600CFAC79 /* KnownDeviceTableViewCell.swift */; };
 		05CF3A9E27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CF3A9C27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift */; };
 		1041799828C0A88200BC3A9B /* GetCurrentStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1041799728C0A88200BC3A9B /* GetCurrentStateViewController.swift */; };
-		1049745528E1BBDD00AD6D6D /* test_config.swlprofile in Resources */ = {isa = PBXBuildFile; fileRef = 1049745428E1BBDD00AD6D6D /* test_config.swlprofile */; };
 		108240BF2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240BE2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift */; };
 		108240C12782EAE4003F18B8 /* TerminateConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240C02782EAE4003F18B8 /* TerminateConnectionViewController.swift */; };
 		108240C32782EAF1003F18B8 /* ClearKnownDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108240C22782EAF1003F18B8 /* ClearKnownDeviceViewController.swift */; };
@@ -40,8 +39,10 @@
 		10D1528E278C0D2000EFFE8E /* DirectConnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1528D278C0D2000EFFE8E /* DirectConnectController.swift */; };
 		10DE1A6C28A39A0200AC0F91 /* GetPeripheralPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE1A6A28A39A0100AC0F91 /* GetPeripheralPrioritiesViewController.swift */; };
 		10DE1A6D28A39A0200AC0F91 /* PeripheralPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DE1A6B28A39A0100AC0F91 /* PeripheralPrioritiesViewController.swift */; };
+		10E427EE2925610100EF3F7B /* SWLCentral.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E427ED2925610100EF3F7B /* SWLCentral.xcframework */; };
 		10E475AE27CCC1A1009DCD19 /* DiagnosticLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E475AD27CCC1A0009DCD19 /* DiagnosticLogViewController.swift */; };
-		10F2023E28E6CC1100295816 /* SWLCentral.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F2023D28E6CC1100295816 /* SWLCentral.xcframework */; };
+		10F43A7829013E7500CF9589 /* swl_default.json in Resources */ = {isa = PBXBuildFile; fileRef = 10F43A7729013E7500CF9589 /* swl_default.json */; };
+		10F43A7A29013EE800CF9589 /* test_config.swlprofile in Resources */ = {isa = PBXBuildFile; fileRef = 10F43A7929013EE700CF9589 /* test_config.swlprofile */; };
 		52822F3327B151CF007B3877 /* GetInternalParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52822F3227B151CF007B3877 /* GetInternalParametersViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +69,6 @@
 		05CF3A9B27148FC600CFAC79 /* KnownDeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnownDeviceTableViewCell.swift; sourceTree = "<group>"; };
 		05CF3A9C27148FC600CFAC79 /* ReceivedPacketsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedPacketsTableViewCell.swift; sourceTree = "<group>"; };
 		1041799728C0A88200BC3A9B /* GetCurrentStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentStateViewController.swift; sourceTree = "<group>"; };
-		1049745428E1BBDD00AD6D6D /* test_config.swlprofile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_config.swlprofile; sourceTree = "<group>"; };
 		104F55B3277DCF2A00EBA72D /* Swaralink BLE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Swaralink BLE.entitlements"; sourceTree = "<group>"; };
 		108240BE2782EAD6003F18B8 /* CancelDiscoverAndConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDiscoverAndConnectViewController.swift; sourceTree = "<group>"; };
 		108240C02782EAE4003F18B8 /* TerminateConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminateConnectionViewController.swift; sourceTree = "<group>"; };
@@ -94,8 +94,10 @@
 		10D1528D278C0D2000EFFE8E /* DirectConnectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectConnectController.swift; sourceTree = "<group>"; };
 		10DE1A6A28A39A0100AC0F91 /* GetPeripheralPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPeripheralPrioritiesViewController.swift; sourceTree = "<group>"; };
 		10DE1A6B28A39A0100AC0F91 /* PeripheralPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralPrioritiesViewController.swift; sourceTree = "<group>"; };
+		10E427ED2925610100EF3F7B /* SWLCentral.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SWLCentral.xcframework; sourceTree = "<group>"; };
 		10E475AD27CCC1A0009DCD19 /* DiagnosticLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticLogViewController.swift; sourceTree = "<group>"; };
-		10F2023D28E6CC1100295816 /* SWLCentral.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SWLCentral.xcframework; sourceTree = "<group>"; };
+		10F43A7729013E7500CF9589 /* swl_default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swl_default.json; sourceTree = "<group>"; };
+		10F43A7929013EE700CF9589 /* test_config.swlprofile */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_config.swlprofile; sourceTree = "<group>"; };
 		52822F3227B151CF007B3877 /* GetInternalParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInternalParametersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F2023E28E6CC1100295816 /* SWLCentral.xcframework in Frameworks */,
+				10E427EE2925610100EF3F7B /* SWLCentral.xcframework in Frameworks */,
 				10A3C1392832888F008DD3B7 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,7 +179,6 @@
 		1098AB7B26F1DB100007F58F /* Swaralink BLE */ = {
 			isa = PBXGroup;
 			children = (
-				1049745428E1BBDD00AD6D6D /* test_config.swlprofile */,
 				10A3C13B28328AC0008DD3B7 /* GoogleService-Info.plist */,
 				104F55B3277DCF2A00EBA72D /* Swaralink BLE.entitlements */,
 				10D1778A275643E600D33761 /* lib_code */,
@@ -198,6 +199,7 @@
 		10ADABFF271EF283007E9B59 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				10F43A7729013E7500CF9589 /* swl_default.json */,
 				10C706D927BB95CF008D50D5 /* SWLConnection.swift */,
 				10ADAC00271EF299007E9B59 /* StaticHelper.swift */,
 			);
@@ -207,7 +209,8 @@
 		10D1778A275643E600D33761 /* lib_code */ = {
 			isa = PBXGroup;
 			children = (
-				10F2023D28E6CC1100295816 /* SWLCentral.xcframework */,
+				10E427ED2925610100EF3F7B /* SWLCentral.xcframework */,
+				10F43A7929013EE700CF9589 /* test_config.swlprofile */,
 			);
 			path = lib_code;
 			sourceTree = "<group>";
@@ -278,8 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F43A7A29013EE800CF9589 /* test_config.swlprofile in Resources */,
+				10F43A7829013E7500CF9589 /* swl_default.json in Resources */,
 				05CF3A5A27148A2C00CFAC79 /* Main.storyboard in Resources */,
-				1049745528E1BBDD00AD6D6D /* test_config.swlprofile in Resources */,
 				1098AB8926F1DB120007F58F /* LaunchScreen.storyboard in Resources */,
 				1098AB8626F1DB120007F58F /* Assets.xcassets in Resources */,
 				10A3C13C28328AC2008DD3B7 /* GoogleService-Info.plist in Resources */,
@@ -523,7 +527,7 @@
 					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
 					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swaralink.appname;
@@ -572,7 +576,7 @@
 					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
 					"$(PROJECT_DIR)/Swaralink\\ BLE/lib_code",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.2.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swaralink.appname;
 				PRODUCT_NAME = "$(TARGET_NAME)";

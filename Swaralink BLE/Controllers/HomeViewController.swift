@@ -39,7 +39,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        SWLConnection.shared.getInternalParameters()
         setupUI()
         bottomView.isHidden = true
     }

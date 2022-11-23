@@ -23,7 +23,7 @@ class AboutViewController: UIViewController {
         super.viewDidLoad()
     
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        versionLabel.text = "v " + appVersion! + "\n" + "30-Sep-2022"
+        versionLabel.text = "v " + appVersion! + "\n" +  "09-NOV-2022"
    //     serviceUUIDInfoLAbel.text = swaralinkServicesUDID.uuidString
         serviceUUIDLabel.isHidden = true
         serviceUUIDInfoLAbel.isHidden = true

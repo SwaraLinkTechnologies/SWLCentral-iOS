@@ -32,19 +32,23 @@ class UpdateFirmwareViewController: UIViewController {
     }
     
     func selectFiles() {
-     
-       let types = (UTType.types(tag: "bin",
-                                 tagClass: UTTagClass.filenameExtension,
-                                 conformingTo: nil)) + (UTType.types(tag: "zip",
-                                                                   tagClass: UTTagClass.filenameExtension,
-                                                                   conformingTo: nil))
-
-        let documentPickerController = UIDocumentPickerViewController(
-                forOpeningContentTypes: types)
+        let documentPickerController = UIDocumentPickerViewController(documentTypes: ["public.item", "com.apple.iwork.pages.pages", "public.data"], in: .open)
 
 
-      documentPickerController.delegate = self
+        documentPickerController.delegate = self
         self.present(documentPickerController, animated: true, completion: nil)
+//       let types = (UTType.types(tag: "bin",
+//                                 tagClass: UTTagClass.filenameExtension,
+//                                 conformingTo: nil)) + (UTType.types(tag: "zip",
+//                                                                   tagClass: UTTagClass.filenameExtension,
+//                                                                   conformingTo: nil))
+//
+//        let documentPickerController = UIDocumentPickerViewController(
+//                forOpeningContentTypes: types)
+//
+//
+//      documentPickerController.delegate = self
+//        self.present(documentPickerController, animated: true, completion: nil)
     }
     
     @IBAction func backAction(_ sender: UIButton) {
